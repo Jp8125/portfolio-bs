@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+</head>
+
+<body>
+   <nav class="navbar navbar-expand-sm navbar-dark bg-dark p-0">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">Jp</a>
+      <buttton class="navbar-toggler" data-toggle="collapse" data-target="#nav1">
+        <span class="navbar-toggler-icon">
+     
+        </span>
+      </buttton>
+      <div class="collapse navbar-collapse" id="nav1">
+        <ul class="navbar-nav">
+          <li class="nav-item px-2">
+            <a href="index.html" class="nav-link ">Dashboard</a>
+          </li>
+          <li class="nav-item px-2">
+            <a href="post.html" class="nav-link active">Post</a>
+          </li>
+          <li class="nav-item px-2">
+            <a href="category.html" class="nav-link ">Category</a>
+          </li>
+          <li class="nav-item px-2">
+            <a href="users.html" class="nav-link ">Users</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item dropdown me-3">
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+              <i class="fa fa-user"></i> wecome user</a>
+            <div class="dropdown-menu">
+              <a href="profile.html" class="dropdown-item">
+                <i class="fa fa-user-circle"></i> profile
+              </a>
+              <a href="settings.html" class="dropdown-item">
+                <i class="fa fa-gear"></i> settings
+              </a>
+              <a href="logout.html" class="dropdown-item">
+                <i class="fa fa-user-times"></i> logout
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+   </nav>
+ <header id="main-header" class="py-2 bg-primary text-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h1><i class="fa fa-pencil"></i> Posts</h1>
+      </div>
+    </div>
+  </div>
+ </header>
+
+  <main>
+    <section id="action" class="py-4 mb-4 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 ms-auto">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="search">
+              <span class="input-group-btn">
+                <button class="btn btn-primary">search</button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="posts" class="mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <div class="card-header">
+                <h4>Latest Poasts</h4>
+              </div>
+              <table class="table table-striped">
+                <thead class="thead-dark">
+                  <tr>
+                    <th>#</th>
+                    <th>Title</th>
+                    <th>Category</th>
+                    <th>Date Posted</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td scope="row">1</td>
+                    <td>post one</td>
+                    <td>web devlopment</td>
+                    <td>feb 24, 2023</td>
+                    <td><a href="details.html" class="btn btn-secondary">
+                      <i class="fa fa-angle-double-right"></i> Details
+                    </a></td>
+                  </tr>
+                  <tr>
+                    <td scope="row">2</td>
+                    <td>post two</td>
+                    <td>api design</td>
+                    <td>feb 21, 2023</td>
+                    <td><a href="details.html" class="btn btn-secondary">
+                      <i class="fa fa-angle-double-right"></i> Details
+                    </a></td>
+                  </tr>
+                  <tr>
+                    <td scope="row">3</td>
+                    <td>post three</td>
+                    <td>news app</td>
+                    <td>feb 1, 2023</td>
+                    <td><a href="details.html" class="btn btn-secondary">
+                      <i class="fa fa-angle-double-right"></i> Details
+                    </a></td>
+                  </tr>
+                  <tr>
+                    <td scope="row">4</td>
+                    <td>post four</td>
+                    <td>mobile devlopment</td>
+                    <td>feb 21, 2023</td>
+                    <td><a href="details.html" class="btn btn-secondary">
+                      <i class="fa fa-angle-double-right"></i> Details
+                    </a></td>
+                  </tr>
+                  <tr>
+                    <td scope="row">5</td>
+                    <td>post five</td>
+                    <td>debugging</td>
+                    <td>feb 20, 2023</td>
+                    <td><a href="details.html" class="btn btn-secondary">
+                      <i class="fa fa-angle-double-right"></i> Details
+                    </a></td>
+                  </tr>
+                  <tr>
+                    <td scope="row">6</td>
+                    <td>post six</td>
+                    <td>youtube</td>
+                    <td>feb 23, 2023</td>
+                    <td><a href="details.html" class="btn btn-secondary">
+                      <i class="fa fa-angle-double-right"></i> Details
+                    </a></td>
+                  </tr>
+                </tbody>
+               
+                
+              </table>
+              <nav class="ms-4">
+                <ul class="pagination">
+                  <li class="page-item">
+                    <a href="#" class="page-link disabled">previous</a>
+                  </li>
+                  <li class="page-item">
+                    <a href="#" class="page-link active">1</a>
+                  </li>
+                  <li class="page-item">
+                    <a href="#" class="page-link ">2</a>
+                  </li>
+                  <li class="page-item">
+                    <a href="#" class="page-link ">3</a>
+                  </li>
+                  <li class="page-item">
+                    <a href="#" class="page-link ">Next</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+     </section>
+  </main>
+  <footer id="main-footer" class="bg-dark text-white mt-5 p-5">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p class="lead text-center">
+            Copyright &copy; 2023 jp
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- place footer here -->
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
